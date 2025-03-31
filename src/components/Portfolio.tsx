@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Image, Layers, Cube, Video } from "lucide-react";
+import { Image, Layers, Box, Video } from "lucide-react";
 
 // Temporary portfolio data - would be replaced with real projects
 const portfolioData = [
@@ -54,10 +54,10 @@ const portfolioData = [
 const categories = [
   { value: "all", label: "All Work", icon: Layers },
   { value: "environments", label: "Environments", icon: Image },
-  { value: "characters", label: "Characters", icon: Cube },
-  { value: "products", label: "Products", icon: Cube },
+  { value: "characters", label: "Characters", icon: Box },
+  { value: "products", label: "Products", icon: Box },
   { value: "animation", label: "Animation", icon: Video },
-  { value: "abstract", label: "Abstract", icon: Cube },
+  { value: "abstract", label: "Abstract", icon: Box },
 ];
 
 const Portfolio = () => {

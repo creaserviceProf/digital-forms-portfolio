@@ -1,5 +1,5 @@
 
-import { Cube } from "lucide-react";
+import { Box } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-2 font-bold text-xl mb-4 md:mb-0">
-            <Cube className="h-6 w-6 text-highlight" />
+            <Box className="h-6 w-6 text-highlight" />
             <span>3D<span className="text-highlight">Artist</span></span>
           </div>
           

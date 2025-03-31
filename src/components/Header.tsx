@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Cube } from "lucide-react";
+import { Box } from "lucide-react";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +32,7 @@ const Header = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center gap-2 font-bold text-xl">
-          <Cube className="h-6 w-6 text-highlight" />
+          <Box className="h-6 w-6 text-highlight" />
           <span>3D<span className="text-highlight">Artist</span></span>
         </div>
         <nav className="hidden md:block">

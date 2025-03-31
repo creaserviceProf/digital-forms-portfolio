@@ -1,6 +1,6 @@
 
 import { useEffect, useRef } from "react";
-import { Cube } from "lucide-react";
+import { Box } from "lucide-react";
 
 const ThreeDModel = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -13,7 +13,7 @@ const ThreeDModel = () => {
       className="w-full h-full flex items-center justify-center bg-dark-accent rounded-xl overflow-hidden animate-float"
     >
       <div className="text-center p-6">
-        <Cube className="h-24 w-24 text-highlight mx-auto mb-4" />
+        <Box className="h-24 w-24 text-highlight mx-auto mb-4" />
         <p className="text-gray-400">
           3D Model Showcase
           <br />

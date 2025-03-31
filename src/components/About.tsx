@@ -1,10 +1,10 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Cube, Image, Video } from "lucide-react";
+import { Box, Image, Video } from "lucide-react";
 
 const About = () => {
   const skills = [
-    { name: "3D Modeling", icon: Cube, description: "Expert in polygonal and NURBS modeling techniques." },
+    { name: "3D Modeling", icon: Box, description: "Expert in polygonal and NURBS modeling techniques." },
     { name: "Texturing", icon: Image, description: "Creation of detailed textures and materials for realistic rendering." },
     { name: "Animation", icon: Video, description: "Character and environment animation with rigging expertise." },
   ];
